@@ -27,7 +27,7 @@ import java.io.OutputStream;
  * GERMAN ONLY!
  * Ein Beispielprogramm für Android Apps
  * Als Projekt für die Schule um Android Entwicklung vorzustellen
- * Dieses Programm versucht Tiere zu erraten. 
+ * Dieses Programm versucht Tiere zu erraten.
  *
  * @author Tim Ittermann (timia2109)
  * @version 1.0
