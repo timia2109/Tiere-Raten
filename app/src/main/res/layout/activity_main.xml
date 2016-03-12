@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingBottom="12sp"
+    android:paddingLeft="12sp"
+    android:paddingRight="12sp"
+    android:paddingTop="12sp"
+    android:orientation="vertical"
+    android:id="@+id/layout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frage:"
+        android:id="@+id/ausgabe"/>
+    <TextView
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ausgabeFrage"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:id="@+id/jaBtn"
+            android:text="Ja!"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:id="@+id/neinBtn"
+            android:text="Nein!"/>
+    </LinearLayout>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/trifftZu"
+        android:text="Trfft auf das Tier zu"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Neue Frage"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eingabeFrage"
+        android:inputType="text"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Neue Antwort"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eingabeName"
+        android:inputType="text"/>
+    <Button
+        android:paddingBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Einfuegen"
+        android:id="@+id/einfuegenBtn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|bottom"
+        android:text="Zeige Baum"
+        android:id="@+id/zeigeBaum"/>
+
+
+</LinearLayout>

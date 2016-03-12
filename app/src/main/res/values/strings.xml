@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SchulProjekt</string>
+    <string name="hallo">Hallo Welt!
+    Sag mir bitte deinen Namen und dein Geburtstag.
+    </string>
+    <string name="name">Dein Name:</string>
+    <string name="gebtag">Dein Geburtstag: %1$s</string>
+    <string name="ausgabe">Hallo %1$s! Du hast am %2$s Geburtstag und bist damit %3$s Jahre alt!</string>
+</resources>
