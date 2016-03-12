@@ -5,6 +5,7 @@ Dieses Programm versucht ein ausgedachtes Tier zu erraten.
 Es verwendet einen Binär Baum welcher auf der SD Karte gespeichert wird. (/sdcard/binbaum.ser)
 **ACHTUNG: Bei Android 6+ musst du manuell das Recht erteilen auf den Speicher zuzugreifen!**
 
+[APK Hier!](https://github.com/timia2109/Tiere-Raten/raw/master/app/build/outputs/apk/app-debug.apk)
 
 Es ist Open-Source und frei verwendbar!
 
